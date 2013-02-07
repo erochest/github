@@ -1,5 +1,5 @@
 {-# LANGUAGE OverloadedStrings, StandaloneDeriving, DeriveDataTypeable #-}
-module Github.Private where
+module Github.Api where
 
 import Github.Data
 import Data.Aeson

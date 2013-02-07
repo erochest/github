@@ -7,7 +7,7 @@ module Github.Users.Followers (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | All the users following the given user.
 --

@@ -7,7 +7,7 @@ module Github.Gists.Comments (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | All the comments on a Gist, given the Gist ID.
 --

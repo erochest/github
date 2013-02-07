@@ -7,7 +7,7 @@ module Github.Users (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | The information for a single user, by login name.
 -- | With authentification

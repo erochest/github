@@ -7,7 +7,7 @@ module Github.Issues.Milestones (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | All milestones in the repo.
 --

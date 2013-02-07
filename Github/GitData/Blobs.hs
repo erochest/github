@@ -6,7 +6,7 @@ module Github.GitData.Blobs (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | Get a blob by SHA1.
 --

@@ -9,7 +9,7 @@ module Github.Issues.Labels (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | All the labels available to use on any issue in the repo.
 --

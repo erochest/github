@@ -9,7 +9,7 @@ module Github.Issues (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 import Data.List (intercalate)
 import Data.Time.Format (formatTime)
 import System.Locale (defaultTimeLocale)

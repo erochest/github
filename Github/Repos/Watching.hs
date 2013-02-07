@@ -7,7 +7,7 @@ module Github.Repos.Watching (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | The list of users that are watching the specified Github repo.
 --

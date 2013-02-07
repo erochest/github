@@ -9,7 +9,7 @@ module Github.GitData.References (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | A single reference by the ref name.
 --

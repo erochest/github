@@ -7,7 +7,7 @@ module Github.Issues.Comments (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | A specific comment, by ID.
 --

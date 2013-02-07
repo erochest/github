@@ -8,7 +8,7 @@ module Github.Gists (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | The list of all gists created by the user 
 -- 

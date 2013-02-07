@@ -13,7 +13,7 @@ module Github.PullRequests (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | All pull requests for the repo, by owner and repo name.
 -- | With authentification

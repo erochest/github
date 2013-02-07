@@ -7,7 +7,7 @@ module Github.Repos.Collaborators (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 import Data.ByteString.Char8 (pack)
 import qualified Network.HTTP.Conduit as C (responseStatus)

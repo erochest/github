@@ -11,7 +11,7 @@ module Github.Repos.Commits (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | The commit history for a repo.
 --

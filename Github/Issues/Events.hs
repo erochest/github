@@ -8,7 +8,7 @@ module Github.Issues.Events (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | All events that have happened on an issue.
 --

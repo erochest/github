@@ -39,7 +39,7 @@ module Github.Repos (
 import Data.Default
 import Data.Aeson.Types
 import Github.Data
-import Github.Private
+import Github.Api
 import Network.HTTP.Conduit
 import qualified Data.ByteString.Char8 as BS
 import Control.Applicative

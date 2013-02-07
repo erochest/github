@@ -6,7 +6,7 @@ module Github.GitData.Commits (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | A single commit, by SHA1.
 --

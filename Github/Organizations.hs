@@ -8,7 +8,7 @@ module Github.Organizations (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | The public organizations for a user, given the user's login, with authorization
 --

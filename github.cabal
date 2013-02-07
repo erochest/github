@@ -114,6 +114,7 @@ Library
   -- Modules exported by the library.
   Exposed-modules: Github.Data,
                    Github.Data.Definitions,
+                   Github.Api,
 
                    Github.Gists,
                    Github.Gists.Comments,
@@ -158,7 +159,7 @@ Library
                  unordered-containers >= 0.2 && < 0.3
   
   -- Modules not exported by this package.
-  Other-modules:       Github.Private
+  -- Other-modules:       Github.Private
   
   -- Extra tools (e.g. alex, hsc2hs, ...) needed to build the source.
   -- Build-tools:         

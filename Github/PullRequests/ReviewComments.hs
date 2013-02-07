@@ -7,7 +7,7 @@ module Github.PullRequests.ReviewComments (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | All the comments on a pull request with the given ID.
 --

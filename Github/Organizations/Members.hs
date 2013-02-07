@@ -6,7 +6,7 @@ module Github.Organizations.Members (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | All the users who are members of the specified organization.
 --

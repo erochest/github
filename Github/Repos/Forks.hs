@@ -6,7 +6,7 @@ module Github.Repos.Forks (
 ) where
 
 import Github.Data
-import Github.Private
+import Github.Api
 
 -- | All the repos that are forked off the given repo.
 --
