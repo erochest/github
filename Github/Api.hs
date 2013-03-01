@@ -137,9 +137,9 @@ doHttps method url auth body = do
                                      BS.pack ("token " ++ token))]
     getOAuth _ = []
     getResponse request = withManager $ \manager -> httpLbs request manager
-    successOrMissing s@(Status sci _) hs
+    successOrMissing s@(Status sci _) hs cj
       | (200 <= sci && sci < 300) || sci == 404 = Nothing
-      | otherwise = Just $ E.toException $ StatusCodeException s hs
+      | otherwise = Just $ E.toException $ StatusCodeException s hs cj
 
 parseJsonRaw :: LBS.ByteString -> Either Error Value
 parseJsonRaw jsonString =

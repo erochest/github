@@ -150,7 +150,7 @@ Library
                  old-locale,
                  HTTP,
                  network,
-                 http-conduit >= 1.8,
+                 http-conduit >= 1.9,
                  conduit,
                  failure,
                  http-types,

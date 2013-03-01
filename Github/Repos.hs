@@ -245,7 +245,7 @@ deleteRepo auth owner repo = do
                 -- non-existent repository
              then return (Left (HTTPConnectionError
                                 (E.toException
-                                 (StatusCodeException status headers))))
+                                 (StatusCodeException status headers $ responseCookieJar resp))))
              else return (Right ())
   where
     url = "https://api.github.com/repos/" ++ owner ++ "/" ++ repo
